@@ -1,0 +1,46 @@
+
+html, body {
+	margin: 0;
+}
+
+audio {
+	display: none;
+}
+
+#ground {
+	height: 70px;
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
+	background-color: brown;
+}
+
+#charAnime {
+	left: 0;
+}
+
+#charAnime, #character {
+	position: absolute;
+}
+
+#character {
+	background-image:url("images/walk/bChar.png");
+    background-repeat:no-repeat;
+    background-position: -750px;
+	width: 125px;
+	height: 188px;
+	bottom: 70px;
+	left: 0px;
+	z-index: 2;
+	/*background-color: hotpink;*/ 
+}
+
+#door {
+	width: 125px;
+	height: 188px;
+	position: fixed;
+	bottom: 70px;
+	background-color: pink;
+	z-index: 3;
+	display: none;
+}
